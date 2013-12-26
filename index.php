@@ -6,7 +6,7 @@ include("library/user_acl.php");
 
 //funciton to get the default dashboard of the user
 
-	 
+	echo 'test'; 
 	if(isset($_POST['login']) && isset($_POST['email']) && isset($_POST['password']))
 	{
 			//echo md5($_POST['password'])."<br/>";
