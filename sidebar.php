@@ -71,6 +71,7 @@ function curPageName() {
 						Image list
 						</a></li>
 						<li class="<?php echo (curPageName()=="upload_ques_images.php")? 'active':'';?>"><a href="upload_ques_images.php"><i class="icon-double-angle-right"></i> 
+						<li class="<?php echo (curPageName()=="upload_ques_images.php")? 'active':'';?>"><a href="upload_ques_images.php"><i class="icon-double-angle-right"></i> 
 						Upload image
 						</a></li>
 						
