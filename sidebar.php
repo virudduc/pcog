@@ -66,17 +66,12 @@ function curPageName() {
 						<b class="arrow icon-angle-down"></b>
 					  </a>
 					  <ul class="submenu">
-			
 						<li class="<?php echo (curPageName()=="list_images.php")? 'active':'';?>"><a href="list_images.php"><i class="icon-double-angle-right"></i> 
 						Image list
 						</a></li>
 						<li class="<?php echo (curPageName()=="upload_ques_images.php")? 'active':'';?>"><a href="upload_ques_images.php"><i class="icon-double-angle-right"></i> 
 						Upload image
-						</a></li>
-						<li class="<?php echo (curPageName()=="upload_ques_images.php")? 'active':'';?>"><a href="upload_ques_images.php"><i class="icon-double-angle-right"></i> 
-						Upload image
-						</a></li>
-						
+						</a></li>						
 					  </ul>
 					</li>
 					<li class="">
