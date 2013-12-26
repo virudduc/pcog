@@ -1,0 +1,17 @@
+1. To initiate a test
+	http://tsprojects.net/demo/ntest/pcog/services/begin_test.php?user=doctor&string=c7ef8fc860e6b06ce37526b3e361700d&udid=
+
+2. To register patient													
+	http://tsprojects.net/demo/ntest/pcog/services/register_patient.php?token=&doctor_id=&fname=&sname=&dob=&test_state=&edu_years=&reason_for_testing=&other_reason=&doctor_name=
+
+3. To fetch questions
+
+	http://tsprojects.net/demo/ntest/pcog/services/get_test_question.php?token=&doctor_id=
+
+4. To set answers
+
+	http://tsprojects.net/demo/ntest/pcog/services/set_test_answer.php?token=&doctor_id=&answers=
+
+5. To get answers
+
+	http://tsprojects.net/demo/ntest/pcog/services/get_test_answer.php?token=&doctor_id=

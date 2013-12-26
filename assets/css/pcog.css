@@ -1,0 +1,33 @@
+table.ques_image_table
+{
+	visibility:hidden;
+}
+
+.droppable_div
+{
+	width:320px;
+	min-height:200px;
+	display:none;
+	border:1px solid black;
+
+}
+.dropped_img
+{
+	margin:4px;
+}
+.remove_div
+{
+	position:relative;float:left;display:inline-block;
+}
+span.remove_anchor
+{
+	position:absolute;
+	top:0;
+	left:0;
+	
+	
+}
+span.remove_anchor:hover
+{
+	cursor:pointer;
+}

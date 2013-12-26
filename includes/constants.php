@@ -1,0 +1,1 @@
+<?php define('BASENAME', basename($_SERVER['PHP_SELF']));define('SITE_NAME', 'P-Cog Backend');define('ROOT_ADDR', $_SERVER['HTTP_HOST']);define('IMAGE_NON_SECURE_PATH', ROOT_ADDR.'/images/ques_img/');define('IMAGE_PATH', 'images/ques_img/');define('OTHER_REASON_ID', '8');define('OTHER_CONFOUNDER_ID', '9');?>
